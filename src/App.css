@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #03031D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.freecodecamp-logo-container{
+  display: flex;
+  justify-content:center ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.freecodecamp-logo{
+  border-radius: 20px;
+  height: 150px;
+  border: 1px solid white;
+  margin-top: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerWrapper{
+  height: 550px;
+  min-width: 600px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
